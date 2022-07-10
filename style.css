@@ -1,0 +1,116 @@
+/*body{
+    background: #0b0b0b;
+  }
+  */
+  .planos{
+    position: absolute;
+    justify-content: space-between;
+    left: 80%;
+    top: 3%;
+    padding: 0px;
+  }
+  .line1{
+   color:antiquewhite;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    justify-content: space-between;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 65px;
+    font-style: normal;
+  }
+  .line2{
+    color: antiquewhite;
+    position: absolute;
+    top: 57%;
+    left: 35%;
+    justify-content: space-between;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+  }
+  button{
+  color: white;
+  background-color:#8253e1;
+    
+    border-color: #8253e1;
+    padding: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    justify-content: space-between;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px
+  
+  }
+  body, ul, li, p {
+    margin:0px;
+    
+    padding:0px;
+    list-style:none;
+    font-size: 1.0rem;
+    
+  }
+a{
+    text-decoration: none;
+    color:rgba(240, 248, 255, 0.369);
+}
+  .header {
+    background: #071020;
+    border-inline-color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px;
+  }
+  .menu {
+    display: flex;
+  }
+  .menu li{
+      margin-left: 30px;
+  }
+  .menu li a{
+      display:block;
+      padding: 10px;
+  
+  }:root{
+      --cor-primaria-login: #8253e1;
+      --cor-secundaria-login: red;
+  }
+  .log-image{
+    top: 3%;
+    left: 71%;
+  }
+  .btn-login{
+    left: 70.6%;
+    top: 2%;
+    max-width: 100%;
+    box-sizing: border-box;
+    background: none;
+    position: absolute;
+    padding: none;
+    color: antiquewhite;
+    border: none;
+  }
+   
+  .btn-info{
+    background: #071020;
+    /*display: inline-block;
+    overflow: hidden;*/
+    max-width: 100%;
+    left: 77%;
+    top: 3%;
+    box-sizing: border-box;
+    border-color: rgb(133, 14, 219);
+    position: absolute;
+    padding: 8px;
+    color: antiquewhite;
+    border-radius: 4px;
+    padding-right: 20px;
+  }
+  
